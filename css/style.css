@@ -676,7 +676,9 @@ display: flex;
     
             .taste-item_bg {
                 width: calc((100% - 24px) / 2);
+                
             }
+            
                       
             /* .taste-title{
                 width: 552px;
