@@ -379,7 +379,15 @@ margin-left: 149px;
     margin: 0 auto;
     
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),url(../images/Dark-bg-mob2x.jpg)
+        rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg)
+}
+
+@media screen and (min-resolution: 2x) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-deckop-2x.jpg);
+    }
 }
 
 .hero-container {
